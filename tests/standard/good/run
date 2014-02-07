@@ -1,0 +1,3 @@
+#!/bin/bash
+
+../../../paracheck -f source.cpp > stdout.txt 2> stderr.txt

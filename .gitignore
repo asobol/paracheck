@@ -1,0 +1,4 @@
+.*.swp
+tests/*/log
+tests/*/current
+paracheck
