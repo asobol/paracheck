@@ -29,11 +29,11 @@ for F in $L ; do
       cd ..
       diff -r good current 1> log 2<&1
       result=$?
-      echo -n $F
+      echo -n ' ? ' $F
       if [ $result -eq 0 ] ; then
-         echo '  +'
+         echo -e '\r +'
       else
-         echo '  -'
+         echo -e '\r -'
       fi
    popd 1> /dev/null 2<&1
 done
