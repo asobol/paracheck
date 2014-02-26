@@ -49,9 +49,12 @@ string help=
 "\n"
 "   Example:\n"
 "\n"
-"          paracheck -p '(){}()[]<>' -f data.txt\n"
+"          paracheck -p '(){}[]<>' -f data.txt\n"
 "\n"
-"";
+"   This program is  distributed under GNU AFFERO GENERAL PUBLIC LICENSE.\n"
+"   You should have received the copy of this license along with the source\n"
+"   code.\n"
+"\n";
 
 string usage_error=
 "\n"
